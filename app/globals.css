@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import "tailwindcss";
+
+:root {
+  --maroon:   #1a0a0a;
+  --maroon2:  #2d1010;
+  --pink:     #e8356d;
+  --pink-lt:  #f06090;
+  --gold:     #c9963a;
+  --gold-lt:  #e8b85a;
+  --ivory:    #fdf6ee;
+  --ivory2:   #f5ede0;
+  --muted:    #9a7a6a;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Lato', sans-serif;
+  background: var(--ivory);
+  color: var(--maroon);
+  overflow-x: hidden;
+}
+
+.font-display { font-family: 'Playfair Display', serif; }
+.font-fine    { font-family: 'Cormorant Garamond', serif; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--maroon); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
